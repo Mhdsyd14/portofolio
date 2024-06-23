@@ -12,7 +12,7 @@ const Jumbotron = () => {
   return (
     <section className="bg-blue-950 h-max">
       <div className=" flex flex-col font-sans py-5 px-4  text-left lg:flex-row">
-        <div className="flex flex-col justify-center lg: w-7/12">
+        <div className="flex flex-col justify-center  ml-3 lg: w-7/12">
           <h1 className="font-semibold tracking-tight text-white text-4xl mt-4 lg:text-5xl lg:w-11/12">
             I am <span className="text-amber-400">Muhammad Irsyad</span>
           </h1>
