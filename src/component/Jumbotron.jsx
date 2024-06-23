@@ -13,7 +13,7 @@ const Jumbotron = () => {
     <section className="bg-blue-950 h-screen">
       <div className=" flex flex-col font-sans py-5 px-4 mx-4 text-left lg:flex-row">
         <div className="flex flex-col justify-center lg: w-7/12">
-          <h1 className=" w-[450px] font-semibold tracking-tight text-white text-3xl mt-3 lg:text-5xl lg:w-11/12">
+          <h1 className="font-semibold tracking-tight text-white text-3xl mt-9 lg:text-5xl lg:w-11/12">
             I am <span className="text-amber-400">Muhammad Irsyad</span>
           </h1>
 
@@ -27,7 +27,7 @@ const Jumbotron = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center  ml-4 mt-[25px] lg:ml-[60px]">
+        <div className="flex justify-center items-center  ml-4 mt-[75px] lg:ml-[60px]">
           <img className=" w-[480px] " src={Profil} alt="Profile" />
         </div>
       </div>
