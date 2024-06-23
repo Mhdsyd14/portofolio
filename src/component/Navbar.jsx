@@ -1,5 +1,5 @@
 import React from "react";
-import "flowbite"; // Import Flowbite JavaScript
+import "flowbite";
 
 const Navbar = () => {
   return (
