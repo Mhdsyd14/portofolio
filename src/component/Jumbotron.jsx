@@ -1,6 +1,6 @@
 import React from "react";
 import Profil from "../assets/profil.png";
-import { FaWhatsapp, FaGithub, FaFileDownload } from "react-icons/fa";
+import { FaWhatsapp, FaLinkedin, FaFileDownload } from "react-icons/fa";
 import { useTypewriter } from "react-simple-typewriter";
 
 const Jumbotron = () => {
@@ -21,9 +21,24 @@ const Jumbotron = () => {
             <span className="text-amber-400"> {text}</span> Developer
           </h1>
           <div className="flex flex-row mt-5 text-3xl md:text-4xl gap-5 text-white">
-            <FaWhatsapp className="hover:text-amber-400" />
-            <FaGithub className="hover:text-amber-400" />
-            <FaFileDownload className="hover:text-amber-400" />
+            <a
+              href="https://wa.me/62895322935928"
+              className="hover:text-amber-400"
+            >
+              <FaWhatsapp size={35} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/muhammad-irsyad1404/"
+              className="hover:text-amber-400"
+            >
+              <FaLinkedin size={35} />
+            </a>
+            <a
+              href="https://docs.google.com/document/d/1z7miFmDuLIvlqcJHF_Qhk8gOoziNZg26_IHG7ZeOpQQ/edit?usp=sharing"
+              className="hover:text-amber-400"
+            >
+              <FaFileDownload size={35} />
+            </a>
           </div>
         </div>
 
