@@ -13,10 +13,10 @@ const Skill = () => {
     <>
       <section
         id="skill"
-        className=" font-sans py-5 px-2 gap-9 mx-auto my-auto  "
+        className=" font-sans py-2 px-2 gap-9 mx-auto my-auto "
       >
         <Marquee gradient={true}>
-          <div className="flex flex-row gap-5 text-6xl text-blue-950">
+          <div className="flex flex-row gap-5 text-2xl text-blue-950 mt-1 lg:text-4xl">
             <DiNodejs />
             <RiReactjsFill />
             <FaLaravel />

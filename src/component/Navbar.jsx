@@ -8,14 +8,14 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-lg font-bold">Mhdsyd14</div>
         <div className="hidden md:flex space-x-4">
-          <a href="/" className="text-white">
+          <a href="#home" className="text-white">
             Home
           </a>
-          <a href="/about" className="text-white">
-            About
+          <a href="#skill" className="text-white">
+            Skill
           </a>
-          <a href="/contact" className="text-white">
-            Contact
+          <a href="#project" className="text-white">
+            Project
           </a>
         </div>
         <div className="md:hidden">
@@ -41,15 +41,15 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden bg-blue-800 p-4 rounded mt-3 shadow-lg">
-          <a href="/" className="block text-white p-2">
+        <div className="md:hidden bg-amber-400 p-4 rounded mt-3 shadow-lg">
+          <a href="#home" className="block text-white p-2">
             Home
           </a>
-          <a href="/about" className="block text-white p-2">
-            About
+          <a href="#skill" className="block text-white p-2">
+            Skill
           </a>
-          <a href="/contact" className="block text-white p-2">
-            Contact
+          <a href="#project" className="block text-white p-2">
+            Project
           </a>
         </div>
       )}
